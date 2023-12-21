@@ -106,6 +106,8 @@ function onStopAppSuccess() {
     console.log('Successfully stopped app.');
 }
 
+launchApp()
+
 function onStopAppError() {
     console.log('Error stopping app.');
 }
